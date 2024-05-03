@@ -13,7 +13,7 @@ const AlbertSansFont = Albert_Sans({
 const RootLayout = ({ children }: PropsWithChildren) => {
     return (
         <html className={AlbertSansFont.className}>
-            <body>{children}</body>
+            <body className="min-h-screen bg-primary-950 ">{children}</body>
         </html>
     );
 };

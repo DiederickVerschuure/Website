@@ -1,4 +1,3 @@
-import Component from '~components/misc/component';
 import { getT } from '~locales/server';
 
 const Page = async () => {
@@ -6,8 +5,7 @@ const Page = async () => {
 
     return (
         <div className="m-8">
-            <h1 className="text-2xl font-semibold">{t('home.description')}</h1>
-            <Component />
+            <h1 className="text-2xl text-neutral-50">{t('home.description')}</h1>
         </div>
     );
 };
